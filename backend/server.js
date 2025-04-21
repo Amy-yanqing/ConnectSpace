@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use("/api/auth",authRoutes);
 app.use("/api/user",userRoutes);
-app.use("/api/notification",notificationRoutes);
+app.use("/api/notifications",notificationRoutes);
 app.use("/api/posts",postRoutes);
 
 
