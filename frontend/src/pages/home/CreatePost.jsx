@@ -7,7 +7,7 @@ const CreatePost = () => {
 	const [text, setText] = useState("");
 	const [img, setImg] = useState(null);
 
-	const imgRef = useRef(null);
+	const imgRef = useRef(null);//what is this for?
 
 	const isPending = false;
 	const isError = false;
