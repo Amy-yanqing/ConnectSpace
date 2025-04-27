@@ -34,7 +34,7 @@ const Posts = ({ feedType }) => {
 
 	})
 
-	useEffect(()=>{refetch();},[feedType,refetch])//这里为什么需要refetch？配套吗?
+	useEffect(()=>{refetch();},[feedType,refetch])
 
 	return (
 		<>
