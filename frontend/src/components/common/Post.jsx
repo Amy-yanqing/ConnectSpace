@@ -57,7 +57,6 @@ const Post = ({ post,authUser }) => {
 		},
 		onSuccess:(updatedLikes)=>{
 			// queryClient.invalidateQueries({queryKey:["posts"]})
-			toast.success("Post liked successfully")
 			queryClient.setQueryData(["posts"],(oldData) => {
 				return oldData.map(p=>{
 					if(p._id === post._id){
@@ -79,7 +78,7 @@ const Post = ({ post,authUser }) => {
 	})
 	const postOwner = post.user;
 
-	const isLiked = post.likes.includes(authUser._id);
+	const isLiked = post.likes.includes(authUser?._id);
 
 	const isMyPost = authUser?._id === post?.user?._id;
 
