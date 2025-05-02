@@ -22,6 +22,7 @@ export const getAllPosts = async (req, res) => {
         }
 
         res.status(200).json(posts);
+    
     } catch (error) {
         console.log("Error in getAllPosts controller: ", error);
         res.status(500).json({ error: "Internal server error" });
@@ -217,12 +218,13 @@ export const commentOnPost = async (req, res) => {
 			return res.status(404).json({ error: "Post not found" });
 		}
 
-		const comment = { user: userId, text };//what is this? how is this working?
+		const comment = { user: userId, text };
 
 		post.comments.push(comment);
 		await post.save();
+        const updatedComments = post.comments;
 
-		res.status(200).json(post);
+		res.status(200).json(updatedComments);
 	} catch (error) {
 		console.log("Error in commentOnPost controller: ", error);
 		res.status(500).json({ error: "Internal server error" });
