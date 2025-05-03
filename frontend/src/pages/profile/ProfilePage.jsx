@@ -173,7 +173,7 @@ const ProfilePage = ({ authUser }) => {
 													rel='noreferrer'
 													className='text-sm text-blue-500 hover:underline'
 												>
-													youtube.com/@asaprogrammer_
+													www.linkedin.com/in/amy-zhong-725263194/
 												</a>
 											</>
 										</div>
