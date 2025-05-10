@@ -173,10 +173,22 @@ const ProfilePage = ({ authUser }) => {
 													rel='noreferrer'
 													className='text-sm text-blue-500 hover:underline'
 												>
-													www.linkedin.com/in/amy-zhong-725263194/
+													Linkedin
+												</a>
+												<span> | </span>
+												<FaLink className='w-3 h-3 text-slate-500' />
+												<a
+												
+													href='https://github.com/Amy-yanqing'
+													target='_blank'
+													rel='noreferrer'
+													className='text-sm text-blue-500 hover:underline'
+												>
+													Github
 												</a>
 											</>
 										</div>
+										
 									)}
 									<div className='flex gap-2 items-center'>
 										<IoCalendarOutline className='w-4 h-4 text-slate-500' />
