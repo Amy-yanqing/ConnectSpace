@@ -2,11 +2,11 @@
 
 > A modern full-stack social media platform built with React, Node.js, and MongoDB
 
-- **Repository**: [[GitHub Link]](https://github.com/Amy-yanqing/ConnectSpace.git)
+- **Repository**: https://github.com/Amy-yanqing/ConnectSpace
 - **Live Demo**: https://connectspace-cvg8.onrender.com/
 
-![image](https://github.com/user-attachments/assets/23701376-3745-42ca-8431-d2b2b15b76db)
-![image](https://github.com/user-attachments/assets/ed292aaf-2b78-4ae4-a19d-11194ac73510)
+![image](https://github.com/user-attachments/assets/3c2e989b-d11d-4ac9-ad93-0fbbf7a21dda) ![image](https://github.com/user-attachments/assets/82c66557-d038-4349-aaba-01429cb8fb64)
+
 
 ## Features
 
