@@ -2,14 +2,28 @@
 
 > A modern full-stack social media platform built with React, Node.js, and MongoDB
 
+## Links
+
 - **Repository**: https://github.com/Amy-yanqing/ConnectSpace
 - **Live Demo**: https://connectspace-cvg8.onrender.com/
 
+## Demo Account
 
-![image](https://github.com/user-attachments/assets/7b2fac65-27a2-49e7-b44b-5c2832ef143b)
-![image](https://github.com/user-attachments/assets/82c66557-d038-4349-aaba-01429cb8fb64)
-![image](https://github.com/user-attachments/assets/3cc8827c-06d0-4682-8a0c-52308066c4c4)
+For testing purposes, you can use the following demo account:
+- **Username**: Deniz
+- **Password**: 123456
 
+*This demo account has sample posts and data to showcase the platform features.*
+
+## Screenshots
+
+<img src="https://github.com/user-attachments/assets/7b2fac65-27a2-49e7-b44b-5c2832ef143b" alt="Homepage Feed" width="700">
+
+<img src="https://github.com/user-attachments/assets/82c66557-d038-4349-aaba-01429cb8fb64" alt="User Profile" width="700">
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3cc8827c-06d0-4682-8a0c-52308066c4c4" alt="Mobile Interface" width="350">
+</div>
 
 ## Features
 
@@ -30,22 +44,12 @@
 **Image Storage:** Cloudinary  
 **Deployment:** Production-ready with static file serving
 
-## Testing
-
-**Test Framework:** [To be added]
-
-**Test Coverage:** [To be updated]
-
-- **Unit Tests**: 
-- **Integration Tests**: 
-- **Component Tests**:
-
 ## Quick Start
 
 1. **Clone & Install**
    ```bash
    git clone https://github.com/Amy-yanqing/ConnectSpace.git
-   cd connect-space
+   cd ConnectSpace
    npm install  # Install all dependencies
    ```
 
@@ -74,7 +78,7 @@
 ## Project Structure
 
 ```
-connect-space/
+ConnectSpace/
 ├── backend/
 │   ├── controllers/    # Business logic
 │   ├── models/        # Database schemas
@@ -106,7 +110,7 @@ connect-space/
 
 ## Deployment
 
-This project is production-ready and can be deployed to platforms like Heroku, Railway, or Render. The build process automatically handles frontend compilation and serves static files.
+This project is production-ready and deployed on Render. The build process automatically handles frontend compilation and serves static files. The live demo is available at: https://connectspace-cvg8.onrender.com/
 
 ## Technical Highlights
 
@@ -116,4 +120,7 @@ This project is production-ready and can be deployed to platforms like Heroku, R
 - **RESTful API** design following industry standards
 - **Cloud image storage** with Cloudinary integration
 - **Responsive design** using Tailwind CSS
+- **Production deployment** with live demo available
+
+
 
