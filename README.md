@@ -107,7 +107,7 @@ ConnectSpace/
 - `/api/posts` - Post creation, deletion, likes, comments
 - `/api/notifications` - Notification management
 
-## Testing
+Testing
 The project includes comprehensive unit tests for core authentication functionality using Jest with ES modules support.
 Test Coverage
 
@@ -134,7 +134,6 @@ Test Framework
 Jest 30 with experimental ES modules support
 Mocking for database models and external dependencies
 Supertest for API endpoint testing (ready for integration tests)
-
 
 ## Deployment
 
