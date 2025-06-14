@@ -1,6 +1,6 @@
 # Connect Space
 
-> A modern full-stack social media platform built with React, Node.js, and MongoDB
+ A modern full-stack social media platform built with React, Node.js, and MongoDB
 
 ## Links
 
