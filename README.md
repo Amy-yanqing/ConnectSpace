@@ -107,6 +107,35 @@ ConnectSpace/
 - `/api/posts` - Post creation, deletion, likes, comments
 - `/api/notifications` - Notification management
 
+## Testing
+The project includes comprehensive unit tests for core authentication functionality using Jest with ES modules support.
+Test Coverage
+
+JWT Token Generation - Token creation and cookie setting validation
+Authentication Middleware - Route protection and unauthorized access handling
+Authentication Controllers - User registration, login, and logout functionality
+
+Running Tests
+bash# Run all tests
+npm test
+
+# Run tests with coverage
+npm run test:coverage
+
+# Run tests in watch mode  
+npm run test:watch
+Test Structure
+backend/tests/
+├── generateToken.test.js    # JWT token generation tests
+├── protectRoute.test.js     # Authentication middleware tests
+└── auth.controller.test.js  # Authentication controller tests
+Test Framework
+
+Jest 30 with experimental ES modules support
+Mocking for database models and external dependencies
+Supertest for API endpoint testing (ready for integration tests)
+
+
 ## Deployment
 
 This project is production-ready and deployed on Render. The build process automatically handles frontend compilation and serves static files. The live demo is available at: https://connectspace-cvg8.onrender.com/
