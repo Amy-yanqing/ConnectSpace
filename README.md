@@ -5,7 +5,10 @@
 - **Repository**: https://github.com/Amy-yanqing/ConnectSpace
 - **Live Demo**: https://connectspace-cvg8.onrender.com/
 
-![image](https://github.com/user-attachments/assets/3c2e989b-d11d-4ac9-ad93-0fbbf7a21dda) ![image](https://github.com/user-attachments/assets/82c66557-d038-4349-aaba-01429cb8fb64)
+
+![image](https://github.com/user-attachments/assets/7b2fac65-27a2-49e7-b44b-5c2832ef143b)
+![image](https://github.com/user-attachments/assets/82c66557-d038-4349-aaba-01429cb8fb64)
+![image](https://github.com/user-attachments/assets/3cc8827c-06d0-4682-8a0c-52308066c4c4)
 
 
 ## Features
