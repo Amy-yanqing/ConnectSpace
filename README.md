@@ -21,9 +21,8 @@ For testing purposes, you can use the following demo account:
 
 <img src="https://github.com/user-attachments/assets/82c66557-d038-4349-aaba-01429cb8fb64" alt="User Profile" width="700">
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/3cc8827c-06d0-4682-8a0c-52308066c4c4" alt="Mobile Interface" width="700">
-</div>
+<img src="https://github.com/user-attachments/assets/3cc8827c-06d0-4682-8a0c-52308066c4c4" alt="Mobile Interface" width="700">
+
 
 ## Features
 
